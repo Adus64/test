@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
 	<meta charset="utf-8" />
-	<title>Odliczanie dni do wydarzenia </title>
+	<title>Odliczanie dni do końca roku</title>
 	
 	<script type="text/javascript" >
 
@@ -22,8 +22,8 @@
 		var endRok = end.getFullYear();
 		var milisekundy2 = end.getTime();
 		
-		var pozostalo = milisekundy2 - milisekundy; //obliczamy ile milisekund pozostało do wydarzenia
-		var dni = Math.floor(pozostalo/86400000); //obliczamy liczbe dni do wydarzenia
+		var pozostalo = milisekundy2 - milisekundy; 
+		var dni = Math.floor(pozostalo/86400000); 
 		
 	
 		
@@ -42,7 +42,7 @@
 
 <div id="container">
 <div id="topBar">
-Zadanie: Utwórz i sformatuj stronę odliczjącą liczbę dni do wydarzenia np. „Ile dni pozostało do wakacji.”</div>
+Ile dni pozostało do końca roku</div>
 	
 	<div id="aktualnaData">...</div> 
 
@@ -57,9 +57,8 @@ Zadanie: Utwórz i sformatuj stronę odliczjącą liczbę dni do wydarzenia np. 
 	<script type="text/javascript" >
 	odliczanie();
 </script>
-<div id="footer">
-Dołącz do klas informatycznych SLO i &lt;koduj&gt;
-</div>
+
+
 </div>
 </body>
 </html>
